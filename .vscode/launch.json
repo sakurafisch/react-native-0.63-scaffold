@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug macOS",
+      "request": "launch",
+      "type": "reactnative",
+      "cwd": "${workspaceFolder}",
+      "platform": "macos"
+    },
+    {
+      "name": "Debug iOS",
+      "request": "launch",
+      "type": "reactnative",
+      "cwd": "${workspaceFolder}",
+      "platform": "ios"
+    },
+    {
+      "name": "Debug Android",
+      "request": "launch",
+      "type": "reactnative",
+      "cwd": "${workspaceFolder}",
+      "platform": "android"
+    },
+    {
+      "name": "Debug Windows",
+      "cwd": "${workspaceFolder}",
+      "type": "reactnative",
+      "request": "launch",
+      "platform": "windows"
+    }
+  ]
+}
